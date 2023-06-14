@@ -27,6 +27,9 @@ class Test(unittest.TestCase):
         self.assertEqual(item.head.data, 'data2')
         self.assertEqual(item.head.next_node.data, 'data3')
 
+
+
+
     def test_str(self):
         item = Queue()
         self.assertEqual(item.dequeue(), None)
